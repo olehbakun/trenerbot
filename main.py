@@ -91,7 +91,7 @@ async def handle_question(update: Update, context: ContextTypes.DEFAULT_TYPE):
     return MENU
 
 if __name__ == '__main__':
-    app = ApplicationBuilder().token(os.getenv("7846510531:AAFx1cqUUaEUqI0UvKT6JoTUmbojDzOZzP8")).build()
+    app = ApplicationBuilder().token(os.getenv(7846510531:AAFx1cqUUaEUqI0UvKT6JoTUmbojDzOZzP8)).build()
 
     conv = ConversationHandler(
         entry_points=[CommandHandler("start", start)],
